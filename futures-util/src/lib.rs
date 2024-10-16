@@ -1,5 +1,6 @@
 //! Combinators and utilities for working with `Future`s, `Stream`s, `Sink`s,
 //! and the `AsyncRead` and `AsyncWrite` traits.
+#![feature(io_slice_advance)]
 
 #![no_std]
 #![doc(test(
